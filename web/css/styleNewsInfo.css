@@ -1,0 +1,142 @@
+/* limit content to 80% of the page */
+.scroller {
+    max-width: 80%;
+    margin: auto;
+}
+
+/* HEADING */
+.heading {
+    border-top: 3px solid black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.heading-category {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.heading-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* SUB-HEADING */
+.author-info {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(194, 194, 194);
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    color: black;
+}
+.author-image {
+    width: 50px;
+    height: 50px;
+}
+.author-name {
+    margin-left: 20px;
+}
+.author-name span {
+    text-decoration: underline;
+}
+
+/* NEWS-CONTENT */
+.news-content-image {
+    margin-bottom: 30px;
+}
+.news-content-image img {
+    width: 100%;
+}
+.news-content-text {
+    font-size: 20px;
+}
+
+/*COMMENT*/
+.comment{
+    max-width: 80%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2%
+}
+.comment-box{
+    width: 100%
+}
+.comment-box form{
+    width: 100%
+    
+}
+.comment-box table{
+    width: 100%;
+    text-align: center
+}
+.comment-box h3{
+    margin-left: 1em
+}
+.comment-box input[type=text]{
+    width: 90%;
+    max-width: 90%;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: lightgray;
+    padding: 1% 0 10% 10px;
+}
+.comment-box input[type=submit]{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px
+}
+.comment-box input[type=submit]:hover{
+    background-color: grey;
+    font-weight: bold;
+}
+.comment-content-text{
+    margin-left: 1em;
+    border-bottom: 1px solid lightgray;
+    max-width: 95%;
+}
+.comment-content-text p:nth-child(2){
+    margin-left: 1em
+}
+.comment-content-text a{
+    text-decoration: none;
+    color: black
+}
+.comment-content-text .edit{
+    float: right;
+}
+.comment-content-text a:hover{
+    text-decoration: underline;
+    font-weight: bold
+}
+.save-button .save {
+    float: right;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 4px;
+}
+.save-button .save:hover{
+    font-weight: bold;
+    padding: 8px;
+}
+
+.save-button .saved{
+    float: right;
+    color: white;
+    text-decoration: none;
+    background-color: lightgray;
+    border: lightgray;
+    padding: 10px;
+    border-radius: 4px;
+}
