@@ -27,6 +27,7 @@ public class Search extends HttpServlet {
             throws ServletException, IOException {
         try {
             String title = request.getParameter("title");
+            System.out.println(title);
             String rawCategoryId = request.getParameter("cat_id");
 
             if (title == null || title.trim().length() == 0) {//if user entered no title in search bar

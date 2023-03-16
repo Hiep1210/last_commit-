@@ -48,8 +48,8 @@
                 </div>
                 <!-- NAVBAR SEARCH -->
                 <div class="col-md-3 navbar-search">
-                    <form action="">
-                        <input style="width: 100%;" type="text" placeholder="Search anything">
+                    <form action="Search">
+                        <input style="width: 100%;" type="text" name="title" placeholder="Search anything">
                         <button style="border: 0px;" type="submit" class="rounded-circle nopadding">
                             <i class="material-icons hover-animation-grow">search</i>
                         </button>

@@ -89,7 +89,7 @@
             <!-- 4 rows of news -->
             <div class="row nopadding">
                 <div class="card col-md-4 nopadding">
-                    <a href="GetNews?news_id=<%= news.get(idx).getNews_id()%>" ><img src="<%= session.getAttribute("location")%><%= news.getImage()%>.webp" class="card-img-top" alt="..."></a>
+                    <a href="GetNews?news_id=<%= news.getNews_id()%>" ><img src="<%= session.getAttribute("location")%><%= news.getImage()%>.webp" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h3 class="card-title"><%= news.getTitle()%></h3>
                         <p class="card-text"><%= news.getSubtitle()%></p>
